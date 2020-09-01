@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Investigacion Aplicada DAW</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" type="text/css" href="Mate.html">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">DAW 02T</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="Pagina_Web.html">Sistemas De Versiones <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="instalacion.html">Instalacion de Git/Github</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Mate.html">Utilizacion de Canvas</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+<main>
+    <div class="container">
+    	<section class="mt-2 mb-2 wow fadeIn">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <img src="img/control_version.png" class="img-fluid z-depth-1-half" style="width: 200; height: 70%; margin-left: 10px; padding-top: 35px;">
+          </div>
+          <div class="col-md-6 mb-4">
+            <h3 class="h3 mb-3 text-center pt-5 pb-3">¿Qué son los sistemas de versiones?</h3>
+             <p class="font-weight-normal">Es una herramienta de software que monitoriza y gestiona cambios en un sistema de archivos. Asimismo, un VCS ofrece herramientas de colaboración para compartir e integrar dichos cambios en otros usuarios del VCS. Al operar al nivel del sistema de archivos, un VCS monitorizará las acciones de adición, eliminación y modificación aplicadas a archivos y directorios. Un repositorio es un término del VCS que describe cuando un VCS está monitorizando un sistema de archivos. En el alcance los archivos individuales de códigos fuente, un VCS monitorizará las adiciones, eliminaciones y modificaciones de las líneas de texto que contiene ese archivo. Entre las opciones populares de VCS del sector de software, se incluyen Git, Mercurial, SVN y preforce.</p>
+             <hr class="my-4">
+          </div>
+          <div class="col-md-6 mb-4">
+          	<h3 class="h3 mb-3 text-center pt-2 pb-1">Tipos de sistemas de versiones </h3>
+             <h4 class="h4 mb-3 ">Sistemas de Control de Versiones Locales</h4>
+              <p class="font-weight-normal">Los sistemas de control de versiones locales en vez de mantener las versiones como archivos independientes, los almacenaban en una base de datos. Cuando era necesario revisar una versión anterior del proyecto se usaba el sistema de control de versiones en vez de acceder directamente al archivo, de esta manera en cualquier momento solo se tenia una copia del proyecto, eliminando la posibilidad de confundir o eliminar versiones.</p>
+              <p>En este punto el control de versiones se llevaba a cabo en el computador de cada uno de los desarrolladores y no existía una manera eficiente de compartir el código entre ellos. </p>
+               <hr class="my-2">
+              <br>
+           </div>
+           <img src="img/local.jpg" class="rounded float-right" style="width: 499px; height: 267px;">
+           <div class="col-md-6 mb-4">
+            <h3 class="h4 mb-3 text-center pt-2 pb-1">Sistemas de Control de Versiones Centralizados</h3>
+             <p class="font-weight-normal">Para facilitar la colaboración de múltiples desarrolladores en un solo proyecto los sistemas de control de versiones evolucionaron: en vez de almacenar los cambios y versiones en el disco duro de los desarrolladores, estos se almacenaban en un servidor.
+             Los sistemas de control de versiones centralizados abordaron este problema impidiendo que los usuarios invalidaran el trabajo de los demás. Si dos personas editaban el mismo archivo y se presentaba un conflicto alguien debía solucionar este problema de manera manual y el desarrollo no podía continuar hasta que todos los conflictos fueran resueltos y puestos a disposición del resto del equipo.</p>
+             <hr class="my-2">
+              <br>
+          </div>
+          <img src="img/centralizado.jpg" class="rounded float-right" style="width: 440px; height: 270px;">
+          <div class="col-md-6 mb-4">
+            <h3 class="h4 mb-3 text-center pt-2 pb-1">Sistemas de Control de Versiones Distribuidos</h3>
+             <p class="font-weight-normal">La siguiente generación de sistemas de control de versiones se alejo de la idea de un solo repositorio centralizado y optó por darle a cada desarrollador una copia local de todo el proyecto, de esta manera se construyo una red distribuida de repositorios, en la que cada desarrollador podía trabajar de manera aislada pero teniendo un mecanismo de resolución de conflictos mucho más elegante que un su versión anterior. Al no existir un repositorio central, cada desarrollador puede trabajar a su propio ritmo, almacenar los cambios a nivel local y mezclar los conflictos que se presenten solo cuando se requiera. Cómo cada usuario tiene una copia completa del proyecto el riesgo por una caída del servidor, un repositorio dañado o cualquier otro tipo de perdida de datos es mucho menor que en cualquiera de sus predecesores.</p>
+            </div>
+            <img src="img/distribuido.jpg" class="rounded float-right">
+          </div>
+          <br>
+          <hr class="my-2">
+          <br>
+          <section>
+          	<h3 class="h3 text-center mb-5">Ventajas De Los Sistemas De Versiones</h3>
+          	<div class="col-10">
+                <h5 class="feature-title">1. Historial completo de cambios a largo plazo de todos los archivos. </h5>
+                <p class="grey-text">Esto significa todos los cambios realizados por muchas personas a lo largo de los años. Los cambios incluyen la creación y eliminación de archivos, así como cambios en su contenido. Las diferentes herramientas de VCS se ocupan de cambiar el nombre y mover archivos de manera diferente. Este historial también debe incluir el autor, la fecha y las notas escritas sobre el propósito de cada cambio. Tener un historial completo le permite volver a la versión anterior para ayudar a analizar la causa raíz del error, y es esencial para solucionar problemas de versiones antiguas del software. Si está utilizando activamente el software, casi todo puede considerarse una "versión anterior" del software.</p>
+              </div>
+              <br>
+              <div class="col-10">
+                <h5 class="feature-title">2. Crea ramas y fusiones.  </h5>
+                <p class="grey-text">Si se tiene a miembros del equipo trabajando al mismo tiempo; sin embargo, incluso trabajando solos se puede beneficiar de un proceso de cambio independiente. La creación de una "rama" en la herramienta VCS mantiene varios flujos de trabajo independientes entre sí y, al mismo tiempo, hace que sea fácil volver a fusionar, para que los desarrolladores puedan verificar que los cambios realizados en cada rama no entren en conflicto. Muchos equipos de software adoptan la práctica de crear ramas para cada función, cada versión o publicación. Existen muchos flujos de trabajo diferentes que los equipos pueden elegir cuando deciden cómo utilizar la creación de las ramas y las fusiones en VCS.</p>
+              </div>
+               <br>
+              <div class="col-10">
+                <h5 class="feature-title">3. Trazabilidad.  </h5>
+                <p class="grey-text">Ser capaz de realizar un seguimiento de cada cambio realizado en el software y conectarlo con el software de gestión de proyectos y seguimiento de errores, poder anotar cada cambio con un mensaje que describa el propósito y el objetivo del cambio. Realizar análisis de causa raíz y recopilación de información. Al leer el código, el historial de comentarios del código está al alcance de su mano, tratando de comprender su función y la razón para diseñar el código de esta manera, de modo que los desarrolladores puedan realizar cambios armoniosos y correctos consistentes con el diseño esperado a largo plazo del sistema.  Esto es particularmente importante para el uso efectivo del código heredado y es esencial para los desarrolladores calcular con precisión el trabajo futuro.</p>
+              </div>
+          </section>
+      </section>
+  </div>
+</main>
+<footer class="footer">
+    <p class="copy" style="background: #000; color: #fff; text-align: center; height: 70px;">&copy; Erika Odalys Cornejo Rodas CR200885| 2020</p>
+  </footer>
+</body>
+</html>
